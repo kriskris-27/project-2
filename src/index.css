@@ -39,3 +39,63 @@ section{
     margin-top: 0;
     width: 20%;
 }
+
+.gray{
+    color: #918E9B;
+}
+.bold{
+    font-weight: bold;
+}
+.card {
+    width: 15%;
+    margin: 3%;
+    font-size: 0.75 rem;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 9px;
+    padding-bottom: 2%;
+}
+
+.card-status {
+    display: flex;
+    align-items: center;
+}
+.card>h2 {
+    font-size: 0.75 rem;
+    font-weight: normal;
+}
+
+/* /////////////////////////// */
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contact-card {
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.contact-card > img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.contact-card > h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+/* //////////////////////////////////// */
