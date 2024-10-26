@@ -7,10 +7,17 @@ import Contact from "./components/Contact";
 export default function App() {
     return (
     <div className="contacts">
-            {/* <Navbar/>
-        <Mainpage/>
-        <Card/> */}
-            <Contact 
+            <Navbar/>
+            <Mainpage/>
+            <Card
+            img="image 12.png"
+            rating="5.0"
+            reviewCount={6}
+            country="USA"
+            title="Life Lessons with Katie Zaferes"
+            price={136}
+            />
+            {/* <Contact 
                 img="./images/mr-whiskerson.png"
                 name="Mr. Whiskerson"
                 phone="(212) 555-1234"
@@ -34,7 +41,7 @@ export default function App() {
                 phone="(0800) CAT KING"
                 email="pumpkin@scrimba.com"
             />
-        
+         */}
         
         </div>
     )

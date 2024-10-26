@@ -68,7 +68,7 @@ section{
 }
 
 /* /////////////////////////// */
-.contacts {
+/* .contacts {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -97,5 +97,5 @@ section{
 .contact-card > h3 {
     font-weight: 700;
     font-size: 18px;
-}
+} */
 /* //////////////////////////////////// */
