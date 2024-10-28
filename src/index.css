@@ -46,16 +46,27 @@ section{
 .bold{
     font-weight: bold;
 }
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
 .card {
     width: 15%;
-    margin: 3%;
     font-size: 0.75 rem;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
 }
 
 .card-img{
     width: 100%;
+    object-fit: cover;
     border-radius: 9px;
-    padding-bottom: 2%;
+    padding-bottom: 9px;
 }
 
 .card-status {
@@ -65,8 +76,19 @@ section{
 .card>h2 {
     font-size: 0.75 rem;
     font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
+.card-bad {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
 /* /////////////////////////// */
 /* .contacts {
     display: flex;
